@@ -1,0 +1,68 @@
+/* style.css */
+body{
+  background: rgb(240,240,240);
+  color: rgb(20,20,20);
+  font-size: 16px;
+  font-family: Oswald;
+}
+h1{
+  font-family: Oswald:;
+  color: rgb(20,20,20);
+  font-weight: lighter;
+  font-size: 40px;
+}
+h2 {
+  font-family: Oswald;
+  color: rgb(20,20,20);
+  font-weight: lighter;
+  font-size: 18px;
+}
+a {
+  color: rgb(20,20,20);
+}
+a:hover {
+  text-decoration: none;
+  color: #68868C;
+}
+
+/* Custom Design */
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600?random");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  margin: 0px;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  text-align: center;
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+#footer a {
+  text-align: center;
+  margin: 0 auto;
+  color: lightgrey;
+  font-size: 30px;
+}
+#footer a:hover {
+  color: white;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
