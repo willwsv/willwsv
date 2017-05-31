@@ -28,23 +28,39 @@ a:hover {
 /* Custom Design */
 
 #banner{
-  text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
-  background-size: cover;
-  padding: 150px;
-  color: white;
-  margin: 0px;
-  text-shadow: 1px 1px 5px black;
+width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
 }
-#banner h1 {
-  color: white;
-  font-size: 50px;
+#banner > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
-#banner p {
-  color: white;
-  opacity: 0.8;
-  font-size: 30px;
-  font-weight: lighter;
+.splash-box {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+ 
+.splash-logo {
+    background-image: url('https://i.imgur.com/0O46Ivt.png');
+    background-size: 574px 112px;
+    width: 574px;
+    height: 112px;
+    margin: auto;
+}
+ 
+.splash-text {
+    margin-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    user-select: none;
+    cursor: default;
 }
 #footer{
   text-align: center;
