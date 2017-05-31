@@ -3,16 +3,16 @@ body{
   background: rgb(240,240,240);
   color: rgb(20,20,20);
   font-size: 16px;
-  font-family: Oswald;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h1{
-  font-family: Oswald:;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(20,20,20);
   font-weight: lighter;
   font-size: 40px;
 }
 h2 {
-  font-family: Oswald;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(20,20,20);
   font-weight: lighter;
   font-size: 18px;
@@ -62,7 +62,15 @@ width: 100%;
     user-select: none;
     cursor: default;
 }
+.webpage{
+    position: absolute;
+    padding-top: 15%
+}
+#container {
+   height:100%;
+}
 #footer{
+  position: relative;
   text-align: center;
   padding: 30px;
   background: rgb(30, 30, 30);
