@@ -10,7 +10,7 @@ body{
   overflow:hidden;
 }
 
-.jumbotron {
+.header_bg {
   height: 750px;
   background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-501838.jpg);
   background-position: center;
