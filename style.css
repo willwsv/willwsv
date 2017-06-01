@@ -1,92 +1,110 @@
-/* style.css */
 body{
   background: rgb(240,240,240);
   color: rgb(20,20,20);
   font-size: 16px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif, Helvetica, Arial, sans-serif;
 }
-h1{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgb(20,20,20);
-  font-weight: lighter;
-  font-size: 40px;
-}
-h2 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: rgb(20,20,20);
-  font-weight: lighter;
-  font-size: 18px;
-}
-a {
-  color: rgb(20,20,20);
-}
-a:hover {
-  text-decoration: none;
-  color: #68868C;
+.container {
+  width: 88%;
+  margin:auto;
+  overflow:hidden;
 }
 
-/* Custom Design */
+.jumbotron {
+  height: 750px;
+  background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-501838.jpg);
+  background-position: center;
+  border-bottom: #a3a3a3 3px solid;
+}
+.header_logo {
+    margin-top: 180px;
+    width: 100%;
+    height: 100%;
+}
+#boxes {
+  margin-top: 165px;
+  padding-bottom: 165px;
+}
+.img-responsive {
+max-width: 40%;
+max-height: auto;
+}
+#boxes h3{
+  font-weight:bold;
+  font-family: raleway;
+  color: grey;
+}
+/* Newsletter */
+#emailnotification{
+  padding:15px;
+  color:#ffffff;
+}
 
-#banner{
-width: 100%;
-    position: relative;
-    padding-bottom: 56.25%;
+#emailnotification h3{
+  float:center;
+  font-size: 19px;
+  margin-left: 11px;
+  font-family: raleway;
+  color: grey;
 }
-#banner > iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
+
+#emailnotification form {
+  float:center;
+  margin-left: 22px;
 }
-.splash-box {
-    position: absolute;
-    top: 30%;
-    left: 0;
-    right: 0;
-    text-align: center;
+
+#emailnotification input[type="email"]{
+  padding:4px;
+  height:38px;
+  width:250px;
 }
- 
-.splash-logo {
-    background-image: url('https://i.imgur.com/0O46Ivt.png');
-    background-size: 574px 112px;
-    width: 574px;
-    height: 112px;
-    margin: auto;
+.subscribebutton{
+  height:38px;
+  background:lightgray;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:rgb(30,30,30);
 }
- 
-.splash-text {
-    margin-top: 10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    color: white;
-    user-select: none;
-    cursor: default;
-}
-.webpage{
-    position: absolute;
-    padding-top: 15%
-}
-#container {
-   height:100%;
+.subscribebutton:hover {
+  color: white;
 }
 #footer{
-  position: relative;
-  text-align: center;
-  padding: 30px;
+  padding: 10px;
   background: rgb(30, 30, 30);
   color: lightgrey;
+  text-align: center;
 }
 #footer a {
-  text-align: center;
-  margin: 0 auto;
   color: lightgrey;
-  font-size: 30px;
+  font-size: 34px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 #footer a:hover {
   color: white;
 }
-.card{
-  padding: 50px;
-  font-weight: lighter;
-  text-align: center;
+hr.style1{
+  background-color: #f17070;
+  display: block;
+  content: '';
+  width: 3.25em;
+  height: 5px;
+  border-radius: 2px;
+}
+hr.style2{
+  background-color: #70b6f1;
+  display: block;
+  content: '';
+  width: 3.25em;
+  height: 5px;
+  border-radius: 2px;
+}
+hr.style3{
+  background-color: #a0f170;
+  display: block;
+  content: '';
+  width: 3.25em;
+  height: 5px;
+  border-radius: 2px;
 }
