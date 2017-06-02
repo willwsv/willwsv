@@ -1,31 +1,65 @@
 body{
   background: rgb(240,240,240);
   color: rgb(20,20,20);
+  width:100%;
+  height:100%;
   font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: auto;
   font-family: sans-serif, Helvetica, Arial, sans-serif;
 }
 .container {
-  width: 88%;
+  width: 100%;
   margin:auto;
   overflow:hidden;
 }
-
-.header_bg {
-  height: 750px;
-  background-image: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-501838.jpg);
-  background-position: center;
-  border-bottom: #a3a3a3 3px solid;
-}
-.header_logo {
-    margin-top: 180px;
+#headerContent {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
 }
-#boxes {
+#headerContent .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+    opacity: 0.5;
+}
+video {
+    position: relative;
+    min-width: 100%;
+    height: 872px;
+    overflow: hidden;
+    z-index: -1;
+    object-fit: cover;
+  }
+.video-logo-box {
+      position: absolute;
+      top: 30%;
+      left: 0;
+      right: 0;
+      z-index:3;
+  }
+.video-logo {
+      background-size: 1556px 327px;
+      max-width: 70%;
+      margin: auto;
+  }
+  #boxes {
   margin-top: 165px;
   padding-bottom: 165px;
 }
 .img-responsive {
+max-width: 100%;
+max-height: auto;
+}
+.img-responsive-logo {
 max-width: 40%;
 max-height: auto;
 }
@@ -57,7 +91,7 @@ max-height: auto;
   padding:4px;
   height:38px;
   width:250px;
-  color:gray;
+  color:darkgray;
 }
 .subscribebutton{
   height:38px;
