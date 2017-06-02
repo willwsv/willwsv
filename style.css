@@ -56,6 +56,19 @@ body{
       background-size: 1556px 327px;
       max-width: 70%;
       margin: auto;
+    }
+.video-text {
+    margin-top: -25px;
+    padding-left: 28px;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+    user-select: none;
+    cursor: default;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 13px;
   }
   #boxes {
   margin-top: 165px;
