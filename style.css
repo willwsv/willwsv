@@ -71,8 +71,8 @@ h1 {
       margin: auto;
     }
 .video-text {
-    margin-top: -25px;
-    padding-left: 28px;
+    margin-top: -4px;
+    padding-left: 45px;
     font-family: Raleway, Helvetica, Arial, sans-serif;
     font-size: 30px;
     color: white;
@@ -177,12 +177,12 @@ hr.style3{
 }
 
 /* Media */
-@media all and (min-width: 50px)   {  h1  { font-size:8px;  text-align: center;margin-top:} }
-@media all and (min-width: 100px)  {  h1  { font-size:6px;  text-align: center;margin-top:30px; padding-right: 35px;} }
-@media all and (min-width: 200px)  {  h1  { font-size:8px;  text-align: center;margin-top: 30px; padding-right: 35px;} }
-@media all and (min-width: 300px)  {  h1  { font-size:10px; text-align: center;margin-top: 30px; padding-right: 35px;} }
-@media all and (min-width: 400px)  {  h1  { font-size:10px; text-align: center;margin-top: 30px;} }
-@media all and (min-width: 500px)  {  h1  { font-size:10px; text-align: center;margin-top: 30px;} }
+@media all and (min-width: 50px)   {  h1  { font-size:10px; text-align: center;margin-top: 30px;} }
+@media all and (min-width: 100px)  {  h1  { font-size:10px; text-align: center;margin-top: 30px;} }
+@media all and (min-width: 200px)  {  h1  { font-size:10px; text-align: center;margin-top: 0px; padding-right: 50px;} }
+@media all and (min-width: 300px)  {  h1  { font-size:10px; text-align: center;margin-top: 0px; padding-right: 50px;} }
+@media all and (min-width: 400px)  {  h1  { font-size:10px; text-align: center;margin-top: 0px; padding-right: 50px;} }
+@media all and (min-width: 500px)  {  h1  { font-size:10px; text-align: center;margin-top: 30px; padding-right: 50px;} }
 @media all and (min-width: 600px)  {  h1  { font-size:11px; text-align: center;margin-top: 30px; } }
 @media all and (min-width: 700px)  {  h1  { font-size:14px; text-align: center;margin-top: 35px; } }
 @media all and (min-width: 800px)  {  h1  { font-size:16px; text-align: center;margin-top: 35px;  } }
