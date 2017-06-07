@@ -83,66 +83,8 @@ video {
 max-width: 100%;
 max-height: auto;
 }
-
-/* === 10.SUBSCRIBE === */
-.home-newsletter {
-padding-bottom: 40px;
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(left, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 */
-}
-.home-newsletter .single {
-max-width: 650px;
-margin: 0 auto;
-text-align: center;
-position: relative;
-z-index: 2; }
-.home-newsletter .single h1 {
-font-size: 5rem;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: -1px;
-  margin-bottom: 1.5625rem;
-  margin-top: 3.5rem;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-}
-.home-newsletter .single p {
-  display: block;
-  text-align: center;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.3rem;
-  font-family: "Lora";
-  margin-left: 0px;
-  line-height: 26px;
-  color: #f17070;
-  margin-bottom: 30px; 
-}
-.home-newsletter .single .form-control {
-height: 50px;
-background: rgba(255, 255, 255, 0.6);
-border-color: #f17070;
-border-radius: 20px 0 0 20px; }
-.home-newsletter .single .form-control:focus {
-box-shadow: none;
-border-color: #562727; }
-.home-newsletter .single .btn {
-min-height: 50px; 
-border-radius: 0 20px 20px 0;
-background: #f17070;
-color: #fff;
-}
-.home-newsletter .single .btn:hover {
-    color: #fff;
-    background-color: #562727;
-    border-color: #562727;
-    box-shadow: none; 
-}
 hr.style1{
-  background-color: #f17070;
+  background-color: #fff;
   display: block;
   content: '';
   width: 3.25em;
@@ -166,23 +108,19 @@ hr.style3{
   border-radius: 2px;
 }
 .seasons_area{
-    background: linear-gradient(
-                     rgba(20,20,20, .7), 
-                     rgba(20,20,20, .7)),
-                     url(../img/bg1.jpg);
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 735px;
 }
 .seasons_area h1 {
-  padding-top: 300px;
+  padding-top: 150px;
   font-size: 5rem;
-  color: white;
+  color: gray;
   text-align: center;
   font-weight: 700;
   letter-spacing: -1px;
-  margin-bottom: 1.5625rem;
   margin-top: 3.5rem;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
@@ -191,21 +129,24 @@ hr.style3{
     padding-top: px;
     text-align: center;
     font-size: 28px;
-    color: aliceblue;
+    color: gray;
     font-family: sans-serif;
 }
+.seasons-image{
+  
+}
 .rewards_area{
-    background: linear-gradient(
-                     rgba(20,20,20, .7), 
-                     rgba(20,20,20, .7)),
-                     url(../img/backgroundart.jpg);
+    background-color: #322f30;                     
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 755px;
+}
+.rewards-image{
+    position: relative; 
 }
 .rewards_area h1 {
-  padding-top: 300px;
+  padding-top: 100px;
   font-size: 5rem;
   color: azure;
   text-align: center;
@@ -217,29 +158,23 @@ hr.style3{
   font-family: 'Montserrat', sans-serif;
 }
 .rewards_area p {
-    padding-top: px;
-    padding-right: px;
-    margin-right: 300px;
-    text-align: left;
+    text-align: center;
     font-size: 28px;
     color: aliceblue;
     float: left;
     font-family: sans-serif;
 }
 .statistics_area{
-    background: linear-gradient(
-                     rgba(20,20,20, .7), 
-                     rgba(20,20,20, .7)),
-                     url(../img/165c49385c25de846b08e11c9b061af9d339f2d7.jpg);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 735px;
 }
 .statistics_area h1 {
-  padding-top: 300px;
+  padding-top: 175px;
   font-size: 5rem;
-  color: white;
+  color: gray;
   text-align: center;
   font-weight: 700;
   letter-spacing: -1px;
@@ -252,10 +187,186 @@ hr.style3{
     padding-top: px;
     text-align: center;
     font-size: 28px;
-    color: aliceblue;
+    color: gray;
     font-family: sans-serif;
 }
+.statistics-image {
+    padding-top: 190px;
+}
 
+/*/Newsletter/*/
+.home-newsletter {
+padding-bottom: 40px;
+}
+.home-newsletter .single {
+max-width: 400px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.home-newsletter .single h1 {
+font-size: 5rem;
+    color: #fff;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+.home-newsletter .single p {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Lora";
+  margin-left: 0px;
+  line-height: 26px;
+  color: #fff;
+  margin-bottom: 30px; 
+}
+.home-newsletter .single .form-control {
+height: 40px;
+background: rgba(255, 255, 255, 0.0);
+border-color: #fff;
+color: #fff;
+}
+.home-newsletter .single .form-control:focus {
+box-shadow: none;
+border-color: #fff; 
+}
+.home-newsletter .single .form-control:hover {
+box-shadow: none;
+border-color: #fff;
+background: rgba(255, 255, 255, 0.1);
+transition: .5s;
+}
+.home-newsletter .single .btn {
+min-height: 40px; 
+border-color: #fff;
+background: rgba(255, 255, 255, 0.0);
+color: #fff;
+}
+.home-newsletter .single .btn:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    transition: .5s;
+    box-shadow: none; 
+}
+/* Footer */
+ul {
+    padding:0;
+    list-style: none;
+    align-content: center;
+}
+.footer-social-icons {
+    width: 450px;
+    padding-left: 50px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 50px;
+    align-content: center;
+    font-size: 2rem;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+    align-content: center;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    align-content: center;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+.footer-copyright {
+    text-align: center;
+    color: gray;
+}
+.footer-section {
+    background: linear-gradient(
+                     rgba(20,20,20, .8), 
+                     rgba(20,20,20, .8)),
+                     url(../img/165c49385c25de846b08e11c9b061af9d339f2d7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 390px;
+}
+    
+}
 
 
 
@@ -270,7 +381,7 @@ hr.style3{
 Extra small devices (portrait phones, less than 544px) 
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
-.home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/
+.home-newsletter .single h1 {font-size:1rem;} /*1rem = 16px*/
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -283,22 +394,22 @@ Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
-  .home-newsletter .single h1 {font-size:2rem;} /*1rem = 16px*/
+  .home-newsletter .single h1 {font-size:1rem;} /*1rem = 16px*/
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/
+  .home-newsletter .single h1 {font-size:1rem;} /*1rem = 16px*/
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .home-newsletter .single h1 {font-size:4.5rem;} /*1rem = 16px*/
+  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-  .home-newsletter .single h1 {font-size:5rem;} /*1rem = 16px*/    
+  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/    
 }
  
 /*
