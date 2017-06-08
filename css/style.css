@@ -11,6 +11,19 @@ body{
   overflow-y: auto;
   font-family: sans-serif, Helvetica, Arial, sans-serif;
 }
+.video-text h1 {
+      margin-top: -25px;
+      padding-left: 34px;
+      font-family: Raleway, Helvetica, Arial, sans-serif;
+      font-size: 30px;
+      color: white;
+      user-select: none;
+      cursor: default;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 13px;
+}
 .container {
   width: 100%;
   margin:auto;
@@ -205,7 +218,7 @@ text-align: center;
 position: relative;
 z-index: 2; }
 .home-newsletter .single h1 {
-font-size: 5rem;
+font-size: 3rem;
     color: #fff;
   text-align: center;
   font-weight: 700;
@@ -381,7 +394,39 @@ ul.social-icons {
 Extra small devices (portrait phones, less than 544px) 
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
-.home-newsletter .single h1 {font-size:1rem;} /*1rem = 16px*/
+.video-text h1 {font-size: 1rem;}  
+.home-newsletter .single h1 {font-size:2rem;}/*1rem = 16px*/
+.seasons_area { height: 470px;}
+.rewards_area { height: 470px;}
+.statistics_area { height: 470px;}
+  .seasons_area h1 {font-size:2rem;
+                    margin-top: 0px;
+                    padding-top: 50px;} /*1rem = 16px*/
+  .seasons_area p {font-size:1.3rem;} /*1rem = 16px*/
+  .rewards_area h1 {font-size:2rem;
+                    margin-top: 0px;
+                    padding-top: 50px;} /*1rem = 16px*/
+  .rewards_area p {font-size:1.3rem;} /*1rem = 16px*/
+  .statistics_area h1 {font-size:2rem;
+                    margin-top: 0px;
+                    padding-top: 50px;} /*1rem = 16px*/
+  .statistics_area p {font-size:1.3rem;} /*1rem = 16px*/
+    .seasons-image {display: none;}
+    .rewards-image {display: none;}
+    .statistics-image {display: none;}
+
+    ul.social-icons {
+    margin-top: 50px;
+    align-content: center;
+    font-size: 1rem;
+}
+        
+    .footer-social-icons {
+    width: 450px;
+    padding-left: 20px;
+    display:block;
+    margin: 0 auto;
+}
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -393,31 +438,95 @@ M E D I A  Q U E R I E S
 Bootstrap 4 breakpoints
 */
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {  
-  .home-newsletter .single h1 {font-size:1rem;} /*1rem = 16px*/
+@media (min-width: 544px) {
+.video-text h1 {font-size: 1rem;} 
+.home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/ 
+  .seasons_area h1 {font-size:2rem;} /*1rem = 16px*/
+  .rewards_area h1 {font-size:2rem;} /*1rem = 16px*/
+  .statistics_area h1 {font-size:2rem;} /*1rem = 16px*/
+    .seasons-image {display: none;}
+    .rewards-image {display: none;}
+    .statistics-image {display: none;}
+        ul.social-icons {
+    margin-top: 50px;
+    align-content: center;
+    font-size: 1rem;
 }
- 
+        
+    .footer-social-icons {
+    width: 450px;
+    padding-left: 20px;
+    display:block;
+    margin: 0 auto;
+}
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 768px) {  
-  .home-newsletter .single h1 {font-size:1rem;} /*1rem = 16px*/
+@media (min-width: 768px) and (max-width: 968px) {
+    .video-text h1 {font-size: 1rem;}
+.home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/ 
+    .seasons_area h1 {font-size:3rem; padding-left: 300px;}/*1rem = 16px*/
+  .rewards_area h1 {font-size:3rem;} /*1rem = 16px*/
+  .statistics_area h1 {font-size:3rem;} /*1rem = 16px*/
+    .seasons-image {display: none;}
+    .rewards-image {display: none;}
+    .statistics-image {display: none;}
 }
- 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/
+    .video-text h1 {font-size: ;}
+.home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/ 
+  .seasons_area h1 {font-size:5rem;} /*1rem = 16px*/
+  .rewards_area h1 {font-size:5rem;} /*1rem = 16px*/
+  .statistics_area h1 {font-size:5rem;} /*1rem = 16px*/
+    .seasons-image {display: block;}
+    .rewards-image {display: block;}
+    .statistics-image {display: block;}
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
-  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/    
+@media (min-width: 1200px) { 
+    .video-text h1 {font-size: 30px;}
+  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/
+    .seasons_area { height: 735px;}
+.rewards_area { height: 755px;}
+.statistics_area { height: 735px;}
+  .seasons_area h1 {font-size:5rem;
+                    margin-top: 150px;
+                    padding-top: 3.5rem;} /*1rem = 16px*/
+  .seasons_area p {font-size:2rem;} /*1rem = 16px*/
+  .rewards_area h1 {font-size:5rem;
+                    margin-top: 150px;
+                    padding-top: 3.5rem;} /*1rem = 16px*/
+  .rewards_area p {font-size:2rem;} /*1rem = 16px*/
+  .statistics_area h1 {font-size:5rem;
+                    margin-top: 150px;
+                    padding-top: 3.5rem;} /*1rem = 16px*/
+  .statistics_area p {font-size:2rem;} /*1rem = 16px*/
+    .seasons-image {display: block;}
+    .rewards-image {display: block;}
+    .statistics-image {display: block;}
 }
- 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::
-Custom media queries
-*/
- 
-/* Set width to make card deck cards 100% width */
-@media (min-width: 950px) and (max-width:1100px) { 
-  .home-newsletter .single h1 {font-size:2.75rem;color:red;} 
+    ul.social-icons {
+    margin-top: 50px;
+    align-content: center;
+    font-size: 2rem;
+}
+        
+    .footer-social-icons {
+    width: 450px;
+    padding-left: 50px;
+    display:block;
+    margin: 0 auto;
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {  
+  .home-newsletter .single h1 {font-size:3rem;} /*1rem = 16px*/ 
+  .seasons_area h1 {font-size:5rem;} /*1rem = 16px*/
+  .rewards_area h1 {font-size:5rem;} /*1rem = 16px*/
+  .statistics_area h1 {font-size:5rem;} /*1rem = 16px*/
+    .seasons-image {display: none;}
+    .rewards-image {display: none;}
+    .statistics-image {display:none;}
 }
